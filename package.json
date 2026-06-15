@@ -1,11 +1,14 @@
 {
-  "name": "bronze-age-backend",
-  "version": "1.0.1",
+  "name": "bronze-age-rivalry-backend",
+  "version": "2.0.0",
+  "description": "청동기 경쟁 - 게임 서버 (안티치트, P2P 시그널, 매칭, 코인 정산)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "ws": "^8.17.1"
   }
 }
